@@ -27,7 +27,7 @@ module Tabletastic
     end
 
     def get_id_for(klass)
-      klass ? klass.model_name.collection : ""
+      klass ? klass.model_name.plural : ""
     end
   end
 end
